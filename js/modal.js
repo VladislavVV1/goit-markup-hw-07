@@ -14,12 +14,12 @@
 
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
-    refs.modalWindow.classList.toggle('modal-animation');
+    refs.modalWindow.classList.toggle('modal__animation');
   }
   function addModal() {
-    refs.modalWindow.classList.add('modal-animation-off')
+    refs.modalWindow.classList.add('modal__animation--off')
   }
   function removeModal() {
-    refs.modalWindow.classList.remove('modal-animation-off')
+    refs.modalWindow.classList.remove('modal__animation--off')
   }
 })();
